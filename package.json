@@ -1,5 +1,5 @@
 {
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Automated Dir Setup for CS Testing",
   "main": "index.js",
   "name": "@kylejeske/parakeet",
@@ -15,7 +15,6 @@
   "license": "MIT",
   "private": false,
   "scripts": {
-    "start": "node index.js",
-    "prepublish": "git commit -a -m '(PRE-PUBLISH COMMIT)'"
+    "start": "node index.js"
   }
 }
