@@ -1,5 +1,5 @@
 {
-  "name": "cs-test-builder",
+  "name": "@kylejeske/parakeet",
   "version": "0.0.1",
   "description": "Automated Dir Setup for CS Testing",
   "main": "index.js",
