@@ -1,0 +1,10 @@
+{
+  "name": "cs-test-builder",
+  "version": "0.0.1",
+  "description": "Automated Dir Setup for CS Testing",
+  "main": "index.js",
+  "repository": "https://github.com/kylejeske/parakeet.git",
+  "author": "kyle",
+  "license": "MIT",
+  "private": false
+}
