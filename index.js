@@ -26,18 +26,20 @@ prompt.get({
     }
 });
 
+import { composer } from "./compose/compose.js";
+
 prompt.on('build', async ({ name }) => {
+  return await composer(name);
 
   // mkdir -p ${name}/
   // yarn init -y
   // yarn add -D jest
   // touch ${name}/question{.js,.test.js}
-
   // Example for what will go here...
-  return await new setTimeout(() => {
-    console.log(`\nDone building: ${colors.underline(name)}.\n`);
-    prompt.emit('stop');
-  }, 1000);
+  // return await new setTimeout(() => {
+  //   console.log(`\nDone building: ${colors.underline(name)}.\n`);
+  //   prompt.emit('stop');
+  // }, 1000);
 });
 
 prompt.stop = function(){
