@@ -1,0 +1,17 @@
+{
+  "name": "@kylejeske/parakeet-crt-builder",
+  "version": "0.0.1",
+  "main": "index.js",
+  "author": "kyle",
+  "type": "module",
+  "license": "MIT",
+  "displayName": "Parakeet: Create Ready Template - Builder",
+  "scripts": {
+    "start": "NODE_OPTIONS='--experimental-vm-modules --no-warnings' node compose"
+  },
+  "description": "Test Template for Test Builder",
+  "repository": "https://www.github.com/kylejeske/parakeet.git",
+  "devDependencies": {
+    "mkdirp": "^1.0.4"
+  }
+}
