@@ -1,8 +1,8 @@
-export const problemPackage = {
-  "name": "@kylejeske/parakeet-crt",
+export const problemPackage = name => ({
+  "name": `@kylejeske/parakeet-test-${name}`,
   "version": "0.0.1",
   "main": "index.js",
-  "author": "kyle",
+  "author": "package-builder",
   "type": "module",
   "license": "MIT",
   "scripts": {
@@ -11,4 +11,4 @@ export const problemPackage = {
   "dependencies": {
     "jest": "^26.6.3"
   }
-};
+});

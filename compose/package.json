@@ -11,5 +11,9 @@
   },
   "description": "Composition Builder for Test Builder",
   "repository": "https://www.github.com/kylejeske/parakeet.git",
-  "private": false
+  "private": false,
+  "dependencies": {
+    "write-file-atomic": "^3.0.3",
+    "write-json-file": "^4.3.0"
+  }
 }
