@@ -1,0 +1,25 @@
+{
+  "version": "0.0.3",
+  "description": "Automated Dir Setup for CS Testing",
+  "main": "index.js",
+  "name": "@kylejeske/parakeet",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kylejeske/parakeet.git"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://npm.pkg.github.com"
+  },
+  "author": "kyle",
+  "license": "MIT",
+  "type": "module",
+  "private": false,
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "colors": "^1.4.0",
+    "prompt": "^1.1.0"
+  }
+}
